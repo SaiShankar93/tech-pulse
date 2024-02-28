@@ -8,20 +8,20 @@ const About2 = ()=> {
     // <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 sm:py-24 lg:py-32">
     <div className="bg-white">
     <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-    <div className="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+    <div className="relative isolate overflow-hidden animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
 
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-10 p-10">  
                     <Date day="14" className="" month="March" subtxt="th"/>
 
-                    <h1 className="text-4xl md:text-6xl  text-center mt-10 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">
+                    <h1 className="text-4xl md:text-6xl  text-center mt-10 text-white">
                     JBIET Main block
 
                     </h1>
             
             <br />
-                <h1 className="text-center mt-10 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-6xl lg:text-8xl">
+                <h1 className="text-center mt-10 text-white text-6xl lg:text-8xl">
                     It's Show time
                 </h1>
             </div>
