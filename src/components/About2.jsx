@@ -7,16 +7,16 @@ const About2 = ()=> {
   return (
     <div className="relative isolate overflow-hidden animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500">
       <div className="mx-auto max-w-7xl py-40">
-            <div className="mx-10 ">  
-                    <Date day="14" className="" month="March" subtxt="th"/>
+            <div >  
+                    <Date day="14"  month="March" subtxt="th"/>
 
-                    <h1 className="text-3xl md:text-6xl  text-center mt-10 ">
-                    JBIET Main block
+                    <h1 className="text-5xl md:text-7xl  text-center mt-10 ">
+                    JBIET, Main block
 
                     </h1>
             
             <br />
-                <h1 className="text-center mt-10  text-4xl md:text-6xl">
+                <h1 className="text-center mt-10  font-black text-6xl md:text-8xl">
                     It's Show time
                 </h1>
             </div>
