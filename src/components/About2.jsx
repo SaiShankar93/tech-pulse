@@ -6,7 +6,7 @@ import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 const About2 = ()=> {
   return (
     <div className="relative isolate overflow-hidden animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500">
-      <div className="mx-auto max-w-7xl py-10">
+      <div className="mx-auto max-w-7xl py-40">
             <div className="mx-10 ">  
                     <Date day="14" className="" month="March" subtxt="th"/>
 
