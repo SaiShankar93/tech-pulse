@@ -19,6 +19,7 @@ const About2 = () => {
                     It's Show<span>time</span>
                 </h1>
             </div>
+        
         </div>
     );
 }

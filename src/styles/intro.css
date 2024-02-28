@@ -23,7 +23,7 @@
     /* font-family: var(--coming); */
     font-weight: bolder;
     font-size: 5.5rem;
-    color: black;
+    color: white;
 }
 .text1,
 .text3,
@@ -31,7 +31,7 @@
 .text8,
 .text9,
 .text11 {
-    color: black;
+    color: white;
     -webkit-text-stroke: 0.75px var(--black);
 }
 
