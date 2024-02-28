@@ -10,7 +10,7 @@ const About2 = ()=> {
             <div >  
                     <Date day="14"  month="March" subtxt="th"/>
 
-                    <h1 className="text-5xl md:text-7xl  text-center mt-10 ">
+                    <h1 className="text-4xl md:text-7xl  text-center mt-10 ">
                     JBIET, Main block
 
                     </h1>
