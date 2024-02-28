@@ -1,12 +1,12 @@
-import '../styles/Date.css';
+
 function Date(props){
     return (
-        <div className="container">
-            <h1 className="date_title">
-                {props.day} <sup>{props.subtxt}</sup>
+        <div className=" text-center">
+            <h1 className="relative text-9xl">
+                {props.day} <span className=" text-4xl absolute lg:-ms-10 -ms-4">{props.subtxt}</span>
+            <span className=" text-5xl">{props.month}</span>
             </h1>
-            <h2 className="month_title">{props.month}</h2>
-    </div>
+         </div>
 )
 }
 
