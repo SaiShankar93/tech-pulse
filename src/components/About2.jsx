@@ -8,16 +8,16 @@ const About2 = ()=> {
     <div className="relative isolate overflow-hidden animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500">
       <div className="mx-auto max-w-7xl py-40">
             <div >  
-                    <Date day="14"  month="March" subtxt="th"/>
+                    <Date day="14"  month="🗓️ March" subtxt="th"/>
 
                     <h1 className="text-4xl md:text-7xl  text-center mt-10 ">
-                    JBIET, Main block
+                    📍JBIET, Main block
 
                     </h1>
             
             <br />
                 <h1 className="text-center mt-10  font-black text-6xl md:text-8xl">
-                    It's Show time
+                   It's Show time
                 </h1>
             </div>
             {/* <svg
