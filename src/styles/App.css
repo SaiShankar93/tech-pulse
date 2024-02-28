@@ -12,7 +12,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column;  
   align-items: flex-start;
   padding: 0 5%;
 }
@@ -23,7 +23,7 @@
   font-size: 7rem;
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
       -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
-  color: var(--black);
+  /* color: var(--black); */
 }
 .title > span {
   color: #fff9f5;
@@ -33,7 +33,7 @@
       1.5px 1.5px 0 #000;
 }
 .content {
-  font-family: var(--subtext);
+  /* font-family: var(--subtext); */
   font-size: 2rem;
   margin-top: -3.5%;
 }
@@ -50,21 +50,21 @@
 }
 .line {
   background-image: linear-gradient(45deg, #af6aff, #ffbc82 80%);
-  width: 30%;
-  height: 0.5rem;
+  width: 50%;
+  height: 2rem;
 }
 .left_date {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  margin-bottom: -5%;
+  margin-bottom: 5%;
 }
 .right_date {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   margin-top: -15%;
-  margin-right: -15%;
+  margin-right: -20%;
 }
 .timer_container {
   width: 100%;
