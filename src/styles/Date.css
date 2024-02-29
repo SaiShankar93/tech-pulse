@@ -26,8 +26,8 @@
   
   .month_title {
     /* font-family: var(--subtext); */
-    margin-top: -5%;
-    font-size: 3rem;
+    /* margin-top: -5%; */
+    font-size: 4rem;
     font-weight: 500;
     color: #fff; /* Change color to white */
   }
@@ -39,7 +39,7 @@
       /* color: #fff3e9; */
   }
   .month_title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .date_title > sup {
       font-size: 2rem;
@@ -52,7 +52,7 @@
         color: #fff3e9;
     }
     .month_title {
-      font-size: 2rem;
+      font-size: 3rem;
     }
     .date_title > sup {
         font-size: 1.7rem;
@@ -64,7 +64,7 @@
     font-size: 3.5rem;
   }
 .month_title {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 .date_title > sup {
   font-size: 1.5rem;
@@ -80,7 +80,7 @@
     font-size: 1rem;
 }
 .month_title {
-  font-size: 1rem;
+  font-size: 17rem;
 }
 
 

@@ -3,7 +3,7 @@ import Date from './Date';
 
 const About2 = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-white" id="details">
         <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 ">
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 w-full sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 " id="glow">
             <svg
@@ -18,15 +18,16 @@ const About2 = () => {
                 </radialGradient>
               </defs>
             </svg>
-            <div className="mx-auto">
+            <div className="mx-auto lg:py-10">
                 <div className="mx-auto text-center">
-                    <Date day="14" month="🗓️ March" subtxt="th" />
+                    <Date day="14" month="March" subtxt="th" />
                 </div>
+                {/* 🗓️ */}
                 <div className="mx-auto text-center">
                     <h1 className="text-white venue">📍JBIET, Main block</h1>
                 </div>
             <br />
-            <div className="timer_container text-center mb-20">
+            <div className="timer_container text-center pb-10">
                 <h1 className="title">
                     It's Show<span>time</span>
                 </h1>

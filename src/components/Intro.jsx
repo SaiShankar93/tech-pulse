@@ -4,7 +4,7 @@ import '../styles/intro.css'
 
 const Intro = () => {
     return (
-        <div className="container">
+        <div className="container max-w-full">
             <div className="textWrapper">
                 <div className="text3 text">Tech Pulse</div>
                 <div className="text4 text">Tech Pulse</div>
