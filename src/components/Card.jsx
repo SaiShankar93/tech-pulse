@@ -26,8 +26,8 @@ const Card = ({ imageSrc, title, description }) => {
       </div>
       
       {showOverlay && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 " onClick={toggleOverlay}>
-          <div className="bg-white p-3 rounded-lg w-1/2">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" onClick={toggleOverlay}>
+          <div className="bg-white p-3 rounded-lg w-full lg:w-1/2 ">
             <div className="flex justify-end">
             <button onClick={toggleOverlay} ><svg viewBox="0 -0.5 8 8" className="h-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>close_mini [#1522]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -206.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <polygon id="close_mini-[#1522]" points="334.6 49.5 337 51.6 335.4 53 333 50.9 330.6 53 329 51.6 331.4 49.5 329 47.4 330.6 46 333 48.1 335.4 46 337 47.4"> </polygon> </g> </g> </g> </g></svg></button>
             </div>
