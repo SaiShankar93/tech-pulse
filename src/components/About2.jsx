@@ -26,7 +26,7 @@ const About2 = () => {
                     <h1 className="text-white venue">📍JBIET, Main block</h1>
                 </div>
             <br />
-            <div className="timer_container text-center">
+            <div className="timer_container text-center mb-20">
                 <h1 className="title">
                     It's Show<span>time</span>
                 </h1>
