@@ -5,10 +5,18 @@ import About2 from "./components/About2"
 import Events from "./components/Events"
 import Intro from "./components/Intro"
  function App() {
+  const [showIntro, setShowIntro] = useState(true);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowIntro(false);
+    }, 4000);
+
+    return () => clearTimeout(timer);
+  }, []); 
   return (
     <>
-      <Intro/>
+      {showIntro && <Intro />}
       <Navbar/>
       <About/>
       <Events/>
