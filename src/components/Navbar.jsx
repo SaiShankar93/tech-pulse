@@ -99,7 +99,7 @@ export default function Example() {
         </div>
         <div className="mx-auto max-w-2xl py-40 sm:py-48 lg:py-30">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
+            <h1 className="text-4xl font-black tracking-tight text-gray-900 sm:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
               TECHPULSE' 2024
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
