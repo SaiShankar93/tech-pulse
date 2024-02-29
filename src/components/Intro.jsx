@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react'
 import '../styles/intro.css'
 
 
 const Intro = () => {
-    const [showIntro, setShowIntro] = useState(true);
-
-    useEffect(() => {
-        const timeoutId = setTimeout(() => {
-            setShowIntro(false);
-        }, 5000);
-        return () => clearTimeout(timeoutId);
-    }, []); 
     return (
-        <div className={showIntro ? 'container' : 'hidden'} >
+        <div className="container">
             <div className="textWrapper">
                 <div className="text3 text">Tech Pulse</div>
                 <div className="text4 text">Tech Pulse</div>
@@ -26,4 +18,6 @@ const Intro = () => {
     );
 };
 
+
 export default Intro;
+
