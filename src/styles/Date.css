@@ -20,23 +20,68 @@
     font-weight: 500;
     font-size: 3rem;
     vertical-align: super;
-    margin-left: -10%;
+    margin-left: -5%;
     text-shadow: none;
   }
   
   .month_title {
     /* font-family: var(--subtext); */
-    font-size: 2rem;
+    margin-top: -5%;
+    font-size: 4rem;
     font-weight: 500;
     color: #fff; /* Change color to white */
   }
+
+
+  @media screen and (max-width: 1050px) {
+    .date_title {
+      font-size: 5rem;
+      color: #fff3e9;
+  }
+  .month_title {
+    font-size: 3rem;
+  }
+  .date_title > sup {
+      font-size: 3rem;
+  }
   
+  } 
 @media screen and (max-width: 800px) {
     .date_title {
-        font-size: 5rem;
+        font-size: 4.5rem;
         color: #fff3e9;
     }
+    .month_title {
+      font-size: 2.5rem;
+    }
     .date_title > sup {
-        font-size: 3rem;
+        font-size: 2.5rem;
 }
+}
+
+@media screen and (max-width: 500px) {
+  .date_title {
+    font-size: 3.5rem;
+  }
+.month_title {
+  font-size: 1.75rem;
+}
+.date_title > sup {
+  font-size: 1.5rem;
+}
+
+}
+
+@media screen and (max-width: 290px) {
+  .date_title {
+    font-size: 1.5rem;
+  }
+  .date_title > sup {
+    font-size: 1rem;
+}
+.month_title {
+  font-size: 1rem;
+}
+
+
 }

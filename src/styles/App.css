@@ -16,11 +16,16 @@
   align-items: flex-start;
   padding: 0 5%;
 }
+.venue{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+}
 .title {
   /* font-family: var(--title); */
   font-style: normal;
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 8rem;
   text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
       -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
   /* color: var(--black); */
@@ -76,6 +81,9 @@
   .title {
       font-size: 5rem;
   }
+  .venue{
+    font-size: 4rem;
+  }
   .title > span {
       font-size: 5rem;
   }
@@ -86,6 +94,9 @@
 @media screen and (max-width: 800px) {
   .title {
       font-size: 4rem;
+  }
+  .venue{
+    font-size: 3rem;
   }
   .title > span {
       font-size: 4rem;
@@ -105,10 +116,13 @@
 }
 @media screen and (max-width: 500px) {
   .title {
-      font-size: 2.35rem;
+      font-size: 3rem;
+  }
+  .venue{
+    font-size: 2rem;
   }
   .title > span {
-      font-size: 2.35rem;
+      font-size: 3rem;
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
           1px 1px 0 #000;
   }
@@ -119,6 +133,9 @@
 @media screen and (max-width: 290px) {
   .title {
       font-size: 1.75rem;
+  }
+  .venue{
+    font-size: 1rem;
   }
   .title > span {
       font-size: 1.75rem;

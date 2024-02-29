@@ -1,7 +1,7 @@
 import '../styles/Date.css';
 function Date(props){
     return (
-        <div className="container">
+        <div className="mx-auto text-center">
             <h1 className="date_title">
                 {props.day} <sup>{props.subtxt}</sup>
             </h1>
