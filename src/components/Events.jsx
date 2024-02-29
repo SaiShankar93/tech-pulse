@@ -33,7 +33,7 @@ const CardList = () => {
   return (
     <div className="flex justify-center">
       <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center">
-        {cardData.map((card, index) => (
+        {cardData.map((card) => (
           <div key={card.id}>
             <Card
               imageSrc={card.imageSrc}
