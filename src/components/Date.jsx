@@ -5,7 +5,7 @@ function Date(props){
             <h1 className="date_title">
                 {props.day} <sup>{props.subtxt}</sup>
             </h1>
-            <h2 className="month_title">{props.month}</h2>
+            <h2 className="month_title ">{props.month}</h2>
     </div>
 )
 }

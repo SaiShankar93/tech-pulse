@@ -19,7 +19,7 @@
 .venue{
   font-style: normal;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .title {
   /* font-family: var(--title); */
@@ -82,7 +82,7 @@
       font-size: 5rem;
   }
   .venue{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .title > span {
       font-size: 5rem;
@@ -96,7 +96,7 @@
       font-size: 4rem;
   }
   .venue{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .title > span {
       font-size: 4rem;
@@ -119,7 +119,7 @@
       font-size: 3rem;
   }
   .venue{
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .title > span {
       font-size: 3rem;
