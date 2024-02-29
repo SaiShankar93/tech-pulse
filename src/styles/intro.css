@@ -5,14 +5,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:black;
+    background-color: black;
     /* Closing animation below */
-    animation: slide-out-container 3.2s cubic-bezier(0.97, 0.01, 0.36, 0.99) 1s;
+    animation: slide-out-container 3.2s cubic-bezier(0.97, 0.01, 0.36, 0.99) 3s;
     animation-fill-mode: forwards;
 }
 
 .textWrapper {
-    color: black;
+    color: white;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
     flex-direction: column;
 }
 .text {
-    /* font-family: var(--coming); */
+    font-family: Montserrat;
     font-weight: bolder;
     font-size: 5.5rem;
     color: white;
@@ -32,7 +32,7 @@
 .text9,
 .text11 {
     color: white;
-    -webkit-text-stroke: 0.75px var(--black);
+    -webkit-text-stroke: 0.75px black;
 }
 
 @keyframes blink {
