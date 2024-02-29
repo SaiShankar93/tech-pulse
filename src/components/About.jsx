@@ -1,4 +1,5 @@
 import '../styles/glow.css'
+import image from '../images/poster.png'
 
 export default function Example() {
     return (
@@ -36,15 +37,15 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="relative mt-16 h-80 lg:mt-8">
-              <img
-                className="absolute left-0 top-0 w-[57rem] m  ax-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-                alt="App screenshot"
-                width={1824}
-                height={1080}
-              />
-            </div>
+            <div className="relative mt-16 max-h-10 lg:mt-8">
+            <img
+              className="absolute left-0 top-0 w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40"
+              src={image}
+              alt="App screenshot"
+              width={1824}
+              height={1080}
+            />
+          </div>
           </div>
           </div>  
         </div>
