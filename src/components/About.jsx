@@ -36,9 +36,9 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="mt-16 max-h-fit mb-5 lg:mt-8">
+            <div className="mt-16 max-h-fit mb-5 lg:mt-8 lg:ml-10">
             <img
-              className="left-0 top-0 w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40"
+              className="left-0 top-0 w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40  transition-all duration-700 hover:scale-105"
               src={image}
               alt="App screenshot"
               width={1824}
