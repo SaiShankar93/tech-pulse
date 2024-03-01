@@ -53,14 +53,14 @@ const Card = ({ imageSrc, title, description, rules,id }) => {
       <div id="modal-container" onClick={handleModalContainerClick} data-id="">
         <div className="modal-background">
           <div ref={modalRef} className={`modal ${isOpen ? '' : ''}`}>
-            <div className="overflow-scroll">
+            <div className="overflow-y-scroll">
             <h2>{title}</h2>
             <p>{rules}</p>
             </div>
 
             <div className="flex justify-between mt-5">
             <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" onClick={toggleOverlay}>
-              Button
+              close
             </button>
             <a
                 href="#"
