@@ -18,12 +18,12 @@ export default function Example() {
           <div className="flex lg:flex-1 ">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-10 w-auto lg:h-20"
+                className="h-10 w-auto lg:h-20 mt-2 lg:mt-0"
                 src="https://images-codehub.vercel.app/Images/Codehub.png"
                 alt=""
               />
               <img
-                className="h-10 w-auto ms-3 sm:-mt-2 lg:h-20"
+                className="h-10 w-auto ms-3 lg:-mt-3 lg:h-20"
                 src="https://images-codehub.vercel.app/Images/JB3.png"
                 alt=""
               />
