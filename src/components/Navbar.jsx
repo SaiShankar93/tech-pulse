@@ -1,33 +1,32 @@
-import { useState } from 'react'
+import {  useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'About', href: '#about' },
   { name: 'Details', href: '#details' },
+  { name: 'Events', href: '#events' },
+  { name: 'Sponser', href: '#sponser' },
   { name: 'Contact', href: '#contact' },
 ]
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  return (
+
+  return (  
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1 ">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-10 w-auto lg:h-20 mt-2 lg:mt-0"
-                src="https://images-codehub.vercel.app/Images/Codehub.png"
+                className="h-8 w-auto"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               />
-              <img
-                className="h-10 w-auto ms-3 lg:-mt-3 lg:h-20"
-                src="https://images-codehub.vercel.app/Images/JB3.png"
-                alt=""
-              />
-
+            </a>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -53,6 +52,11 @@ export default function Example() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
+                <img
+                  className="h-8 w-auto"
+                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  alt=""
+                />
               </a>
               <button
                 type="button"
@@ -70,13 +74,13 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
+                      onClick={() => setMobileMenuOpen(false)} // Close mobile menu when a navigation item is clicked
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
                   ))}
                 </div>
-
               </div>
             </div>
           </Dialog.Panel>
