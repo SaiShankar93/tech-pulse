@@ -5,6 +5,7 @@ import About from "./components/About";
 import About2 from "./components/About2";
 import Events from "./components/Events";
 import Intro from "./components/Intro";
+import Sponcer from "./components/sponcer"
 function App() {
   const [showIntro, setShowIntro] = useState(true);
 
@@ -26,6 +27,7 @@ function App() {
           <About />
           <About2 />
           <Events />
+          <Sponcer/>
           <Footer />
         </>
       )}

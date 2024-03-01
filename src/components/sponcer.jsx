@@ -1,5 +1,5 @@
 import '../styles/glow.css'
-import image from '../images/poster.png'
+import image from '../images/icompass.png'
 
 export default function Example() {
     return (
@@ -18,33 +18,30 @@ export default function Example() {
                 </radialGradient>
               </defs>
             </svg>
-            <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left ">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Boost your productivity.
-                <br />
-                Start using our app today.
-              </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
-              </p>
-              <div className="mt-10">
-                <a
-                  href="#"
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                >
-                  Register now!
-                </a>
-              </div>
-            </div>
             <div className= "mt-16 mb-5 ">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-10">
+                Our Sponcer
+              </h2>
             <img
-              className="left-0 top-0 mx-auto  w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40  transition-all duration-700 hover:scale-105"
+              className=" my-auto  mx-auto  w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40  transition-all duration-700 hover:scale-105"
               src={image}
               alt="App screenshot"
               width={1824}
               height={1080}
             />
           </div>
+            <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-10 lg:text-left ">
+
+              <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mt-10">
+                iCompass
+
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-300">
+                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, iste. Facere, sed voluptatibus laborum quidem aperiam commodi laboriosam facilis expedita a consectetur odit reiciendis voluptates porro deserunt, temporibus sunt reprehenderit.
+              </p>
+            </div>
+
           </div>
           </div>  
         </div>
