@@ -21,6 +21,7 @@ const Card = ({ imageSrc, title, description, rules,id }) => {
 
   const handleButtonClick = (e) => {
     const buttonId = e.currentTarget.id;
+    console.log(buttonId)
     const modalContainer = document.getElementById('modal-container');
     modalContainer.removeAttribute('class');
     modalContainer.classList.add(buttonId);
@@ -49,7 +50,7 @@ const Card = ({ imageSrc, title, description, rules,id }) => {
       </div>
 
 
-      <div id="modal-container" onClick={handleModalContainerClick}>
+      <div id="modal-container" onClick={handleModalContainerClick} data-id="">
         <div className="modal-background">
           <div ref={modalRef} className={`modal ${isOpen ? '' : ''}`}>
             <h2>{title}</h2>

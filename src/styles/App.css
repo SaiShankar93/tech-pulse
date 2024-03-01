@@ -17,13 +17,11 @@
   padding: 0 5%;
 }
 .venue{
-  font-style: normal;
   font-weight: 700;
   font-size: 4rem;
 }
 .title {
   /* font-family: var(--title); */
-  font-style: normal;
   font-weight: 700;
   font-size: 8rem;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black,

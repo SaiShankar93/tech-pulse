@@ -58,7 +58,7 @@ const cardData = [
 
 const CardList = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center mb-10">
       <div className="grid grid-cols-1 gap-24 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center">
         {cardData.map((card,index) => (
           <div key={card.id} className={card.id === 4 ? 'pb-12' : 'pb-2'}>

@@ -8,8 +8,8 @@ import GmailIcon from "../images/gmail.svg";
 function Footer() {
     return (
         <footer className="bg-white dark:bg-gray-900">
-            <div className="container mx-auto max-w-screen-xl p-4 py-6 lg:py-8 flex flex-col md:flex-row justify-center items-center">
-                <div className="mb-6 md:mb-0 pr-3 md:pr-8 md:w-1/3 lg:w-1/4">
+            <div className="container  dark:bg-gray-900 mx-auto max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap md:flex-row justify-center items-center">
+                <div className="mb-6 md:mb-0  md:w-1/3 lg:w-1/4">
                     <a href="/" className="flex flex-col items-center">
                         <img
                             src="https://images-codehub.vercel.app/Images/Codehub.png"
