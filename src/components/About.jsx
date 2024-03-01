@@ -6,7 +6,7 @@ export default function Example() {
       
       <div className="bg-white" id='about'>
         <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-          <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 " id="glow">
+          <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 lg:flex justify-around " id="glow">
             <svg
               viewBox="0 0 1024 1024"
               className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -38,7 +38,7 @@ export default function Example() {
             </div>
             <div className= "mt-16 mb-5 ">
             <img
-              className="left-0 top-0 mx-auto  w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40  transition-all duration-700 hover:scale-105"
+              className="mx-auto  w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10  transition-all duration-700 hover:scale-105"
               src={image}
               alt="App screenshot"
               width={1824}

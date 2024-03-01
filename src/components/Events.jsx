@@ -21,7 +21,7 @@ const cardData = [
     id: 2,
     imageSrc: bugsmash,
     title: 'SEE IT , NAME IT',
-    description: `A Thrilling Logo Identification Competition .Test Your Brand Recognition Skills`,
+    description: `A Thrilling Logo Identification Competition. Test Your Brand Recognition Skills`,
     rules :`join us for an exciting journey through the world of brands with our 'SEE IT, NAME IT' event! Are you a master at recognising logos and deciphering brand identities? Put your skills to the test in this thrilling competition where participants will compete head-to-head to identify famous logos from various industries. From iconic symbols to hidden gems, challenge yourself and your friends to see who can correctly guess the most logos within the time limit. Whether you're a marketing enthusiast, design aficionado, or simply love a good brain teaser, this event is for you! Get ready for an evening of fun, laughter, and friendly competition as we celebrate the power of branding. Bring your A-game and join us for a chance to showcase your logo knowledge and win exciting prizes! Don't miss out - RSVP now and let the guessing games begin!
 
     RULES:

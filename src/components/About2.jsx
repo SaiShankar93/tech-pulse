@@ -22,7 +22,6 @@ const About2 = () => {
                 <div className="mx-auto text-center">
                     <Date day="14" month="March" subtxt="th" />
                 </div>
-                {/* 🗓️ */}
                 <div className="mx-auto text-center">
                     <h1 className="text-white venue">📍JBIET, Main block</h1>
                 </div>
