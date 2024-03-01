@@ -29,7 +29,7 @@ const About2 = () => {
             <br />
             <div className="timer_container text-center">
                 <h1 className="title">
-                    It's Show<span>time</span>
+                    It's Show <span>Time</span>
                 </h1>
             </div>
         

@@ -36,7 +36,7 @@ export default function Example() {
                 </a>
               </div>
             </div>
-            <div className="mt-16 max-h-fit mb-5 lg:mt-8 lg:ml-10">
+            <div className="mt-16 max-h-fit mb-5 lg:mt-8 lg:ml-20 sm:pr-20">
             <img
               className="left-0 top-0 w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 lg:left-40  transition-all duration-700 hover:scale-105"
               src={image}
@@ -45,16 +45,6 @@ export default function Example() {
               height={1080}
             />
           </div>
-
-          {/* <div className="relative  max-h-fit lg:mt-8 ">
-            <img
-              className="absolute left-0 top-0 w-[20rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 "
-              src={image}
-              alt="App screenshot"
-              width={1824}
-              height={1080}
-            />
-          </div> */}
           </div>
           </div>  
         </div>
