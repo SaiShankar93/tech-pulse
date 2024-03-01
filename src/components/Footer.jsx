@@ -7,8 +7,8 @@ import GmailIcon from "../images/gmail.svg";
 
 function Footer() {
     return (
-        <footer className="bg-white dark:bg-white" id="contact">
-            <div className="container  dark:bg-blue-300 mx-auto max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap md:flex-row justify-center items-center">
+        <footer className="bg-white dark:bg-blue-300" id="contact">
+            <div className="container  dark:bg-blue-300  max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap ">
                 <div className="mb-6 md:mb-0  md:w-1/3 lg:w-1/4">
                     <a href="/" className="flex flex-col items-center">
                         <img
@@ -16,14 +16,14 @@ function Footer() {
                             className="h-24 mb-0"
                             alt="CodeHub"
                         />
-                        <span className="self-center text-xl font-bold whitespace-nowrap dark:text-black">
+                        <span className="self-center text-xl whitespace-nowrap dark:text-black">
                             CodeHub
                         </span>
                     </a>
                 </div>
 
-                <div className="flex flex-col md:w-full lg:w-1/2 justify-center items-center">
-                    <ul className="text-gray-500 dark:text-black font-medium mx-auto md:mx-0 max-w-screen-md">
+                <div className="flex flex-col lg:w-1/2 justify-center items-center">
+                    <ul className="text-gray-500 dark:text-black mx-auto md:mx-0 max-w-screen-md">
                         <li className="mb-4">
                             <a href="" className="hover:underline">
                                 About us
@@ -84,9 +84,10 @@ function Footer() {
                         <span className="ml-2">Gmail</span>
                     </a>
                 </div>
+
             </div>
 
-            <div className="text-center text-gray-500 dark:text-black mt-4">
+            <div className="text-center dark:bg-blue-200 text-gray-500 dark:text-black mt-4">
                 <span>
                     &copy; {new Date().getFullYear()} CodeHub. All Rights Reserved.
                 </span>
