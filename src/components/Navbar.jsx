@@ -5,8 +5,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'About', href: '#about' },
   { name: 'Details', href: '#details' },
-  { name: 'Events', href: '#events' },
-  { name: 'Sponser', href: '#sponser' },
   { name: 'Contact', href: '#contact' },
 ]
 
@@ -19,14 +17,18 @@ export default function Example() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-10 w-auto lg:h-20 mt-2 lg:mt-0"
+                src="https://images-codehub.vercel.app/Images/Codehub.png"
                 alt=""
               />
-            </a>
+              <img
+                className="h-10 w-auto ms-3 lg:-mt-3 lg:h-20"
+                src="https://images-codehub.vercel.app/Images/JB3.png"
+                alt=""
+              />
+
           </div>
           <div className="flex lg:hidden">
             <button

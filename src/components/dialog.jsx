@@ -92,17 +92,17 @@ function Dialog({ eventid, title, rules,close }) {
   return (
     <div id="modal-container" onClick={handleModalContainerClick} data-id="">
       <div className="modal-background">
-        <div ref={modalRef} className={`modal ${isOpen ? '' : ''} m-24 rounded-full`}>
+        <div ref={modalRef} className={`modal ${isOpen ? '' : ''} lg:mx-24 rounded-lg`}>
           {
             cardData.map((card) => {
               if (card.eventid === eventid) {
                 return (
                   <>
-                    <div className="overflow-y-scroll text-start p-2 rounded-lg">
+                    <div className="overflow-y-scroll max-h-80 sm:overflow-y-scroll text-start px-1 pt-1 rounded-lg">
                       <h2 id='modal-title' className='font-bold' >{title}</h2>
                       <p id='modal-rules' className='whitespace-pre-line'>{rules}</p>
                     </div>
-                    <div className="flex justify-between mt-5">
+                    <div className="flex justify-between mt-10">
                       <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" onClick={close}>
                         close
                       </button>
