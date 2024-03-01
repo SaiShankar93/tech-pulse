@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from './Card'; 
-import bugsmash from '../images/bugsmash.jpeg';
+import bugsmash from '../images/bugsmash.jpeg'
 
 const cardData = [
   {
-    id: 1,
+    eventid: 1,
     imageSrc: bugsmash,
     title: 'BUGBASH',
     description: 'Gear Up for the Bug Bash: Debugging Marathon in Python, Java, and C!',
@@ -18,10 +18,10 @@ const cardData = [
     5.Programming languages:Python,Java,C programming language`
   },
   {
-    id: 2,
+    eventid: 2,
     imageSrc: bugsmash,
     title: 'SEE IT , NAME IT',
-    description: `A Thrilling Logo Identification Competition. Test Your Brand Recognition Skills`,
+    description: `A Thrilling Logo Identification Competition .Test Your Brand Recognition Skills`,
     rules :`join us for an exciting journey through the world of brands with our 'SEE IT, NAME IT' event! Are you a master at recognising logos and deciphering brand identities? Put your skills to the test in this thrilling competition where participants will compete head-to-head to identify famous logos from various industries. From iconic symbols to hidden gems, challenge yourself and your friends to see who can correctly guess the most logos within the time limit. Whether you're a marketing enthusiast, design aficionado, or simply love a good brain teaser, this event is for you! Get ready for an evening of fun, laughter, and friendly competition as we celebrate the power of branding. Bring your A-game and join us for a chance to showcase your logo knowledge and win exciting prizes! Don't miss out - RSVP now and let the guessing games begin!
 
     RULES:
@@ -30,7 +30,7 @@ const cardData = [
     3.Efficient at managing time while cracking logo mysteries.`
   },
   {
-    id: 3,
+    eventid: 3,
     imageSrc: bugsmash,
     title: `NEED FOR SPEED`,
     description: `Get Ready to Race: Typing Competition for Testing Your Limits.`,
@@ -42,7 +42,7 @@ const cardData = [
     3.Utilize every second wisely to achieve peak typing performance and claim victory.`
   },
   {
-    id: 4,
+    eventid: 4,
     imageSrc: bugsmash,
     title: 'QUIZ WIZARD',
     description: 'Compete for Tech Supremacy: Quiz Wizard Technical Extravaganza!',
@@ -58,12 +58,12 @@ const cardData = [
 
 const CardList = () => {
   return (
-    <div className="flex justify-center mb-10">
-      <div className="grid grid-cols-1 gap-24 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center px-5">
+    <div className="flex justify-center mb-10" id="events">
+      <div className="grid grid-cols-1 gap-24 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center">
         {cardData.map((card,index) => (
           <div key={card.id} className={card.id === 4 ? 'pb-12' : 'pb-2'}>
             <Card
-              id={card.id}
+              eventid={card.eventid}
               imageSrc={card.imageSrc}
               title={card.title}
               description={card.description}
