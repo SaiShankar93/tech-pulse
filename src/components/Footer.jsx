@@ -7,8 +7,8 @@ import GmailIcon from "../images/gmail.svg";
 
 function Footer() {
     return (
-        <footer className="bg-white dark:bg-gray-900" id="contact">
-            <div className="container  dark:bg-gray-900 mx-auto max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap md:flex-row justify-center items-center">
+        <footer className="bg-white dark:bg-white" id="contact">
+            <div className="container  dark:bg-gray-500 mx-auto max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap md:flex-row justify-center items-center">
                 <div className="mb-6 md:mb-0  md:w-1/3 lg:w-1/4">
                     <a href="/" className="flex flex-col items-center">
                         <img
@@ -16,14 +16,14 @@ function Footer() {
                             className="h-24 mb-0"
                             alt="CodeHub"
                         />
-                        <span className="self-center text-xl font-bold whitespace-nowrap dark:text-white">
+                        <span className="self-center text-xl font-bold whitespace-nowrap dark:text-black">
                             CodeHub
                         </span>
                     </a>
                 </div>
 
                 <div className="flex flex-col md:w-full lg:w-1/2 justify-center items-center">
-                    <ul className="text-gray-500 dark:text-gray-400 font-medium mx-auto md:mx-0 max-w-screen-md">
+                    <ul className="text-gray-500 dark:text-black font-medium mx-auto md:mx-0 max-w-screen-md">
                         <li className="mb-4">
                             <a href="" className="hover:underline">
                                 About us
@@ -45,7 +45,7 @@ function Footer() {
                 <div className="flex flex-col mt-4 sm:justify-center md:mt-0 space-y-2 rtl:space-x-reverse md:w-1/3 lg:w-1/4">
                     <a
                         href="https://www.instagram.com/codehub_jbiet/"
-                        className="text-gray-400 hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
                     >
                         <img src={InstagramIcon} className="w-6 h-6" alt="Instagram" />
                         <span className="sr-only">Instagram</span>
@@ -53,7 +53,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://www.youtube.com/c/CodeHubb/featured"
-                        className="text-gray-400 hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
                     >
                         <img src={YoutubeIcon} className="w-6 h-6" alt="Youtube" />
                         <span className="sr-only">Youtube</span>
@@ -61,7 +61,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://t.me/joinchat/RoqVlQw4ACxdRg83"
-                        className="text-gray-400 hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
                     >
                         <img src={TelegramIcon} className="w-6 h-6" alt="Telegram" />
                         <span className="sr-only">Telegram</span>
@@ -69,7 +69,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://www.linkedin.com/company/c0dehub/"
-                        className="text-gray-400 hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
                     >
                         <img src={LinkedInIcon} className="w-6 h-6" alt="LinkedIn" />
                         <span className="sr-only">LinkedIn</span>
@@ -77,7 +77,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://mail.google.com/mail/u/0/#search/codehubcse%40jbiet.edu.in?compose=new"
-                        className="text-gray-400 hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
                     >
                         <img src={GmailIcon} className="w-6 h-6" alt="Gmail" />
                         <span className="sr-only">Gmail</span>
@@ -86,7 +86,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="text-center text-gray-500 dark:text-gray-400 mt-4">
+            <div className="text-center text-gray-500 dark:text-black mt-4">
                 <span>
                     &copy; {new Date().getFullYear()} CodeHub. All Rights Reserved.
                 </span>
