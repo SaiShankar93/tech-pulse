@@ -34,8 +34,8 @@
   color: black;
   font-weight: 700;
   font-size: 7rem;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white,
-  -1px 1px 0 white, 1px 1px 0 white;
+  text-shadow: -1px -1px 0 #dedbdb, 1px -1px 0 #dedbdb,
+  -1px 1px 0 #dedbdb, 1px 1px 0 #dedbdb;
 }
 .content {
   /* font-family: var(--subtext); */
