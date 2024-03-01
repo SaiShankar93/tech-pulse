@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      flexGrow: {
+        2: '2'
+      },
       animation: {
         text: 'text 5s ease infinite',
       },
