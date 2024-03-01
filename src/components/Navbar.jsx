@@ -23,7 +23,7 @@ export default function Example() {
                 alt=""
               />
               <img
-                className="h-10 w-auto ms-3 -mt-3 lg:h-20"
+                className="h-10 w-auto ms-3  lg:h-20"
                 src="https://images-codehub.vercel.app/Images/JB3.png"
                 alt=""
               />
