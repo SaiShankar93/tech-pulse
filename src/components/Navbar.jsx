@@ -15,10 +15,19 @@ export default function Example() {
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+          <div className="flex lg:flex-1 ">
               <span className="sr-only">Your Company</span>
-            </a>
+              <img
+                className="h-10 w-auto lg:h-20"
+                src="https://images-codehub.vercel.app/Images/Codehub.png"
+                alt=""
+              />
+              <img
+                className="h-10 w-auto ms-3 -mt-3 lg:h-20"
+                src="https://images-codehub.vercel.app/Images/JB3.png"
+                alt=""
+              />
+
           </div>
           <div className="flex lg:hidden">
             <button
