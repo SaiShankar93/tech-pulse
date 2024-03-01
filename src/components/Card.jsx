@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/sass.scss';
-import Dialog from './Dialog';
+import Dialog from './dialog';
 
 const Card = ({ imageSrc, title, description, rules, eventid }) => {
   const [isOpen, setIsOpen] = useState(false);
