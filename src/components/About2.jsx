@@ -28,7 +28,7 @@ const About2 = () => {
                 </div>
             <br />
             <div className="timer_container text-center">
-                <h1 className="title px-5">
+                <h1 className="title">
                     <Timer/>
                 </h1>
             </div>
