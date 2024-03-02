@@ -23,7 +23,7 @@
 .title {
   /* font-family: var(--title); */
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 5rem;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black,
       -1px 1px 0 black, 1px 1px 0 black;
   /* color: var(--black); */
@@ -33,7 +33,7 @@
 .title > span {
   color: black;
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 5rem;
   text-shadow: -1px -1px 0 #dedbdb, 1px -1px 0 #dedbdb,
   -1px 1px 0 #dedbdb, 1px 1px 0 #dedbdb;
 }
@@ -79,13 +79,13 @@
 }
 @media screen and (max-width: 1050px) {
   .title {
-      font-size: 5rem;
+      font-size: 4rem;
   }
   .venue{
     font-size: 3rem;
   }
   .title > span {
-      font-size: 5rem;
+      font-size: 4rem;
   }
   .line {
       width: 45%;
@@ -93,13 +93,13 @@
 }
 @media screen and (max-width: 800px) {
   .title {
-      font-size: 4rem;
+      font-size: 3rem;
   }
   .venue{
     font-size: 2.5rem;
   }
   .title > span {
-      font-size: 4rem;
+      font-size: 3rem;
   }
   .content {
       font-size: 1rem;
@@ -116,13 +116,13 @@
 }
 @media screen and (max-width: 500px) {
   .title {
-      font-size: 3rem;
+      font-size: 1.7rem;
   }
   .venue{
     font-size: 1.7rem;
   }
   .title > span {
-      font-size: 3rem;
+      font-size: 1.7rem;
   }
   .date_container {
       width: fit-content;
@@ -130,12 +130,12 @@
 }
 @media screen and (max-width: 290px) {
   .title {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
   }
   .venue{
     font-size: 1rem;
   }
   .title > span {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
 }

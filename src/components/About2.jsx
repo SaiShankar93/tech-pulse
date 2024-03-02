@@ -1,10 +1,11 @@
 import  '../styles/App.css';
 import Date from './Date';
+import Timer from './Timer';
 
 const About2 = () => {
     return (
         <div className="bg-white" id="details">
-        <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 ">
+        <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 min-h-fit">
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-10 w-full sm:rounded-3xl sm:px-16  lg:flex lg:gap-x-20 lg:px-24" id="glow">
             <svg
               viewBox="0 0 1024 1024"
@@ -27,8 +28,8 @@ const About2 = () => {
                 </div>
             <br />
             <div className="timer_container text-center">
-                <h1 className="title">
-                    It's Show <span>Time</span>
+                <h1 className="title px-5">
+                    <Timer/>
                 </h1>
             </div>
         
