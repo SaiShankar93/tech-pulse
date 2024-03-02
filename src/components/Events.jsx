@@ -62,8 +62,8 @@ const cardData = [
 const CardList = () => {
   return (
     <div className="my-20">
-     <h1 className="text-6xl font-black text-center mb-10 tracking-tight text-gray-900 sm:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
-          Games
+     <h1 className="text-6xl font-black text-center mb-10 tracking-tight text-gray-900 sm:text-5xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
+     Competitions
       </h1>
       <p className="my-10 text-lg lg:px-20 px-10">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
