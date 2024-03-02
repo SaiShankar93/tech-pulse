@@ -1,5 +1,5 @@
 import '../styles/glow.css'
-import image from '../images/icompass.png'
+import image from '../images/icompaas.png'
 
 export default function Example() {
     return (
