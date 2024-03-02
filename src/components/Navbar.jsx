@@ -103,8 +103,7 @@ export default function Example() {
               TECHPULSE' 24
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+              Join us for an exhilarating journey into the realm of technology at TechPulse'24, where innovation meets inspiration. Organized by CodeHub, this event promises a dynamic blend of knowledge sharing, networking, and exciting competitions that will fuel your passion for technology.
             </p>
             <div className="mt-10">
               <a
