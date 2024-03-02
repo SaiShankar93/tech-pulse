@@ -105,6 +105,8 @@ export default function Example() {
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Join us for an exhilarating journey into the realm of technology at TechPulse'24, where innovation meets inspiration. Organized by CodeHub, this event promises a dynamic blend of knowledge sharing, networking, and exciting competitions that will fuel your passion for technology.
             </p>
+            <p>Don't miss out on this extraordinary opportunity to be part of the TechPulse'24 experience. Reserve your spot today and embark on a journey of discovery, collaboration, and innovation.
+            </p>
             <div className="mt-10">
               <a
                 href="#"
