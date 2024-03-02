@@ -62,10 +62,13 @@ const cardData = [
 const CardList = () => {
   return (
     <div className="my-20">
-     <h1 className="text-4xl font-black text-center mb-20 tracking-tight text-gray-900 sm:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
+     <h1 className="text-6xl font-black text-center mb-10 tracking-tight text-gray-900 sm:text-6xl animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent ">
           Games
       </h1>
-      <p></p>
+      <p className="my-10 text-lg lg:px-20 px-10">
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+              fugiat veniam occaecat fugiat aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae eligendi. Reiciendis, porro veniam! Consequatur quibusdam totam corrupti cum recusandae, suscipit nobis, enim beatae ea aliquid, perferendis deserunt incidunt sit?
+            </p>
         <div className="flex justify-center mb-10" id="events">
       <div className="grid grid-cols-1 gap-24 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center">
         {cardData.map((card,index) => (
