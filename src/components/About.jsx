@@ -20,12 +20,12 @@ export default function Example() {
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left ">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Boost your productivity.
+                Codehub Presents!...
                 <br />
-                Start using our app today.
+                TechPulse'24
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+                Don't miss out on this extraordinary opportunity to be part of the TechPulse'24 experience. Reserve your spot today and embark on a journey of discovery, collaboration, and innovation.
               </p>
               <div className="mt-10">
                 <a
