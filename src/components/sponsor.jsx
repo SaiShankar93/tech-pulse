@@ -37,8 +37,11 @@ export default function Example() {
 
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, iste. Facere, sed voluptatibus laborum quidem aperiam commodi laboriosam facilis expedita a consectetur odit reiciendis voluptates porro deserunt, temporibus sunt reprehenderit.
+                iCompaas - infrastructure Compliance and Security as a Service
+
+Security events and compliance vulnerabilities can critically slow and pause operations, often at pivotal times for startups and small businesses. iCompaas services are maintaining Compliance and Security standards for your cloud infrastructure. We provide services of a Cloud Security Specialist, a Compliance Specialist and a Cloud Architect all rolled into one tool.
+
+iCompaas Services helps companies focus on faster time to market by taking care of the cloud infrastructure security and compliance roadblocks by providing remediation reports for Certifications, Regulations (HIPAA) and Frameworks (CIS) for your Cloud infrastructure. We help enforcement of compliance standards for public cloud infrastructure using real-time, secure, agent-less auditing, notification and remediation.
               </p>
             </div>
 
