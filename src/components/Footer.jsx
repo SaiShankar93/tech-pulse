@@ -90,16 +90,16 @@ function Footer() {
                 Contact Info :
                 <div className="flex justify-center pt-4 gap-6">
                     <p>
-                        Ramesh babu - Co-ordinator</br>
+                        Ramesh babu - Co-ordinator<br/>
                         +91 9885203521
                     </p>
                     <p>
-                        Mithun - president</br>
+                        Mithun - president<br/>
                         +91 7569855965
                         
                     </p>
                     <p>
-                        Satyadeep - secratary</br>
+                        Satyadeep - secratary<br/>
                         +91 8919685350
                     </p>
                 </div>
