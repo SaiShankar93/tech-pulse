@@ -85,8 +85,22 @@ function Footer() {
                     </a>
                 </div>
 
+            </div> 
+            <div className="w-full text-center">
+                Contact Info :
+                <div className="flex justify-center pt-4 gap-6">
+                    <p>
+                        Ramesh babu: 090099999999
+                    </p>
+                    <p>
+                        Mithun: 090099999999
+                        
+                    </p>
+                    <p>
+                        Satyadeep: 090099999999
+                    </p>
+                </div>
             </div>
-
             <div className="text-center bg-blue-200 text-black mt-4">
                 <span>
                     &copy; {new Date().getFullYear()} CodeHub. All Rights Reserved.
