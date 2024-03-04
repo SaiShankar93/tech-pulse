@@ -9,7 +9,7 @@ const cardData = [
   {
     eventid: 1,
     imageSrc: BB,
-    title: 'BUGBASH',
+    title: 'BUGBASH (12:00 PM)',
     description: 'Gear Up for the Bug Bash: Debugging Marathon in Python, Java, and C!',
     rules: `Bug Bash technical event would typically involve students from computer science or related fields coming together to identify and fix bugs in the given code. During the event, participant would work collaboratively to review code, run tests, and debug issues to improve the quality of the code. This hands-on experience allows students to apply their knowledge in a practical setting, gain valuable problem-solving skills, and learn about software development best practices. Overall, Bug Bashes provide students with an opportunity to sharpen their technical skills, work in teams, and contribute to real-world projects.
 
