@@ -81,7 +81,7 @@ function Footer() {
                     >
                         <img src={GmailIcon} className="w-6 h-6" alt="Gmail" />
                         <span className="sr-only">Gmail</span>
-                        <span className="ml-2">Gmail</span>
+                        <span className="">Gmail</span>
                     </a>
                 </div>
 
