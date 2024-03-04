@@ -49,7 +49,7 @@ function Footer() {
                     >
                         <img src={InstagramIcon} className="w-6 h-6" alt="Instagram" />
                         <span className="sr-only">Instagram</span>
-                        <span className="ml-2">Instagram</span>
+                        <span className="">Instagram</span>
                     </a>
                     <a
                         href="https://www.youtube.com/c/CodeHubb/featured"
@@ -57,7 +57,7 @@ function Footer() {
                     >
                         <img src={YoutubeIcon} className="w-6 h-6" alt="Youtube" />
                         <span className="sr-only">Youtube</span>
-                        <span className="ml-2">Youtube</span>
+                        <span className="">Youtube</span>
                     </a>
                     <a
                         href="https://t.me/joinchat/RoqVlQw4ACxdRg83"
@@ -65,7 +65,7 @@ function Footer() {
                     >
                         <img src={TelegramIcon} className="w-6 h-6" alt="Telegram" />
                         <span className="sr-only">Telegram</span>
-                        <span className="ml-2">Telegram</span>
+                        <span className="">Telegram</span>
                     </a>
                     <a
                         href="https://www.linkedin.com/company/c0dehub/"
@@ -73,7 +73,7 @@ function Footer() {
                     >
                         <img src={LinkedInIcon} className="w-6 h-6" alt="LinkedIn" />
                         <span className="sr-only">LinkedIn</span>
-                        <span className="ml-2">LinkedIn</span>
+                        <span className="">LinkedIn</span>
                     </a>
                     <a
                         href="https://mail.google.com/mail/u/0/#search/codehubcse%40jbiet.edu.in?compose=new"
