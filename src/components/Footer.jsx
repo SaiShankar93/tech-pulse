@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className="bg-blue-300" id="contact">
             <div className="container  bg-blue-300  max-w-screen-xl  py-6 lg:py-8 flex flex-row justify-between  flex-wrap ">
-                <div className="mb-6 md:mb-0  md:w-1/3 lg:w-1/4">
+                <div className="mb-6 md:mb-0  w-1/2">
                     <a href="/" className="flex flex-col items-center">
                         <img
                             src="https://images-codehub.vercel.app/Images/Codehub.png"
@@ -22,7 +22,7 @@ function Footer() {
                     </a>
                 </div>
 
-                <div className="flex flex-col lg:w-1/2 justify-center items-center">
+{/*                 <div className="flex flex-col lg:w-1/2 justify-center items-center">
                     <ul className="text-black mx-auto md:mx-0 max-w-screen-md">
                         <li className="mb-4">
                             <a href="" className="hover:underline">
@@ -40,9 +40,9 @@ function Footer() {
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
 
-                <div className="flex flex-col mt-4 sm:justify-center md:mt-0 space-y-2 rtl:space-x-reverse md:w-1/3 lg:w-1/4">
+                <div className="flex flex-col mt-4 sm:justify-center md:mt-0 space-y-2 rtl:space-x-reverse w-1/2">
                     <a
                         href="https://www.instagram.com/codehub_jbiet/"
                         className="text-black hover:text-gray-700 flex items-center"
@@ -90,14 +90,17 @@ function Footer() {
                 Contact Info :
                 <div className="flex justify-center pt-4 gap-6">
                     <p>
-                        Ramesh babu: 090099999999
+                        Ramesh babu - Co-ordinator
+                        +91 9885203521
                     </p>
                     <p>
-                        Mithun: 090099999999
+                        Mithun - president
+                        +91 7569855965
                         
                     </p>
                     <p>
-                        Satyadeep: 090099999999
+                        Satyadeep - secratary
+                        +91 8919685350
                     </p>
                 </div>
             </div>
