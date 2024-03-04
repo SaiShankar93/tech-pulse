@@ -45,7 +45,7 @@ function Footer() {
                 <div className="flex flex-col mt-4 justify-center items-center  md:mt-0 space-y-2 rtl:space-x-reverse w-1/2">
                     <a
                         href="https://www.instagram.com/codehub_jbiet/"
-                        className="text-black hover:text-gray-700 w-24 flex items-center justify-between"
+                        className="text-black hover:text-gray-700 w-24 flex items-center justify-start"
                     >
                         <img src={InstagramIcon} className="w-6 h-6" alt="Instagram" />
                         <span className="sr-only">Instagram</span>
@@ -53,7 +53,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://www.youtube.com/c/CodeHubb/featured"
-                        className="text-black hover:text-gray-700 w-24 flex items-center justify-between"
+                        className="text-black hover:text-gray-700 w-24 flex items-center justify-start"
                     >
                         <img src={YoutubeIcon} className="w-6 h-6" alt="Youtube" />
                         <span className="sr-only">Youtube</span>
@@ -61,7 +61,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://t.me/joinchat/RoqVlQw4ACxdRg83"
-                        className="text-black hover:text-gray-700 w-24 flex items-center justify-between"
+                        className="text-black hover:text-gray-700 w-24 flex items-center justify-start"
                     >
                         <img src={TelegramIcon} className="w-6 h-6" alt="Telegram" />
                         <span className="sr-only">Telegram</span>
@@ -69,7 +69,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://www.linkedin.com/company/c0dehub/"
-                        className="text-black hover:text-gray-700  w-24 flex items-center justify-between"
+                        className="text-black hover:text-gray-700  w-24 flex items-center justify-start"
                     >
                         <img src={LinkedInIcon} className="w-6 h-6" alt="LinkedIn" />
                         <span className="sr-only">LinkedIn</span>
@@ -77,7 +77,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://mail.google.com/mail/u/0/#search/codehubcse%40jbiet.edu.in?compose=new"
-                        className="text-black hover:text-gray-700 w-24 flex items-center justify-around"
+                        className="text-black hover:text-gray-700 w-24 flex items-center justify-start"
                     >
                         <img src={GmailIcon} className="w-6 h-6" alt="Gmail" />
                         <span className="sr-only">Gmail</span>
