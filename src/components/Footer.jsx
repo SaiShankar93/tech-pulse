@@ -94,12 +94,12 @@ function Footer() {
                         9885203521
                     </p>
                     <p>
-                        Mithun - president<br/>
+                        Mithun - President<br/>
                         7569855965
                         
                     </p>
                     <p>
-                        Satyadeep - secratary<br/>
+                        Satyadeep - Secratary<br/>
                         8919685350
                     </p>
                 </div>
