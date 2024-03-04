@@ -77,7 +77,7 @@ function Footer() {
                     </a>
                     <a
                         href="https://mail.google.com/mail/u/0/#search/codehubcse%40jbiet.edu.in?compose=new"
-                        className="text-black hover:text-gray-900 dark:hover:text-white flex items-center"
+                        className="text-black hover:text-gray-900 flex items-center"
                     >
                         <img src={GmailIcon} className="w-6 h-6" alt="Gmail" />
                         <span className="sr-only">Gmail</span>
