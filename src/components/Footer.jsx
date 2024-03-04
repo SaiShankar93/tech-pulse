@@ -42,7 +42,7 @@ function Footer() {
                     </ul>
                 </div> */}
 
-                <div className="flex flex-col mt-4 sm:justify-center md:mt-0 space-y-2 rtl:space-x-reverse w-1/2">
+                <div className="flex flex-col mt-4 justify-center items-center  md:mt-0 space-y-2 rtl:space-x-reverse w-1/2">
                     <a
                         href="https://www.instagram.com/codehub_jbiet/"
                         className="text-black hover:text-gray-700 flex items-center"
@@ -91,16 +91,16 @@ function Footer() {
                 <div className="flex justify-center pt-4 gap-6">
                     <p>
                         Ramesh babu - Co-ordinator<br/>
-                        +91 9885203521
+                        9885203521
                     </p>
                     <p>
                         Mithun - president<br/>
-                        +91 7569855965
+                        7569855965
                         
                     </p>
                     <p>
                         Satyadeep - secratary<br/>
-                        +91 8919685350
+                        8919685350
                     </p>
                 </div>
             </div>
