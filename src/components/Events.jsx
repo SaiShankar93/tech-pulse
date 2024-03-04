@@ -66,7 +66,11 @@ const CardList = () => {
      Competitions
       </h1>
       <p className="my-10 text-lg lg:px-20 px-10">
-              TechPulse'24 is not just about learning and networking; it's also about putting your skills to the test in our exhilarating competitions. Whether you thrive on solving complex problems, crave the adrenaline rush of coding challenges, or enjoy showcasing your tech knowledge, we have something for everyone. Here's a glimpse of the competitions awaiting you:
+              TechPulse'24 is not just about learning and networking; it's also about putting your skills to the test in our exhilarating competitions. Whether you thrive on solving complex problems, crave the adrenaline rush of coding challenges, or enjoy showcasing your tech knowledge, we have something for everyone. Here's a glimpse of the competitions awaiting you
+                      <p className="pt-5 text-center font-['Madimi_One'] font-bold text-3xl">
+                Want to participate in multiple competitions?<br />
+                Participate in all competitions just for 100₹
+              </p>
             </p>
         <div className="flex justify-center mb-10" id="events">
       <div className="grid grid-cols-1 gap-24 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 place-self-center">
