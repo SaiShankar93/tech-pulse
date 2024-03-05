@@ -99,7 +99,7 @@ function Footer() {
                         
                     </p>
                     <p>
-                        Satyadeep - Secratary<br/>
+                        Satyadeep - Secretary<br/>
                         8919685350
                     </p>
                 </div>
