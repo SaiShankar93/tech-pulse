@@ -29,7 +29,7 @@ export default function Example() {
               </p>
               <div className="mt-10">
                 <a
-                  href="https://forms.gle/qv8uKMkvRiefqZP17" target="_blank"
+                  href="https://saishankar93.github.io/Payment-gateway/" target="_blank"
                   className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Register now!
