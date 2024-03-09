@@ -74,7 +74,8 @@ const CardList = () => {
      Competitions
       </h1>
       <p className="my-10 text-lg lg:px-20 px-10">
-              TechPulse'24 is not just about learning and networking; it's also about putting your skills to the test in our exhilarating competitions. Whether you thrive on solving complex problems, crave the adrenaline rush of coding challenges, or enjoy showcasing your tech knowledge, we have something for everyone. Here's a glimpse of the competitions awaiting you
+              TechPulse'24 is not just about learning and networking; it's also about putting your skills to the test in our exhilarating competitions. Whether you thrive on solving complex problems, crave the adrenaline rush of coding challenges, or enjoy showcasing your tech knowledge, we have something for everyone. Here's a glimpse of the competitions awaiting you. <br/>
+        <p className="text-lg text-center font-bold"> All participants are given certificates</p>
                       <p className="pt-5 text-center font-['Madimi_One'] font-bold text-3xl">
       Participate in all four competitions and unlock a 50% discount on the total cost!<br />
     Showcase your skills across multiple events at an unbeatable price paying Rs.100.

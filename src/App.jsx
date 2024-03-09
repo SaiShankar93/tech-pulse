@@ -6,6 +6,7 @@ import About2 from "./components/About2";
 import Events from "./components/Events";
 import Intro from "./components/Intro";
 import Sponsor from "./components/sponsor"
+
 function App() {
   const [showIntro, setShowIntro] = useState(true);
 
